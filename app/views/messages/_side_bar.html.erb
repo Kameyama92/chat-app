@@ -1,6 +1,6 @@
 <div class="side-bar-header">
   <div class="header-name">
-    <a href="#">Shinya</a>
+    <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: 'btn'%>
 </div>
 <div class="create-room">
   <a href="#">チャットを作成する</a>
